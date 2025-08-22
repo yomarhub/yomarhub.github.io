@@ -1,0 +1,7 @@
+title: "Mon Blog de Stage"
+description: "Journal de mon expérience professionnelle en Bachelor 2"
+author: "Ton Nom"
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
