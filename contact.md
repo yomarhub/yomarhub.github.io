@@ -4,7 +4,7 @@ title: "Contact"
 ---
 
 📧 Vous pouvez me contacter à :  
-**[ton-email@example.com](mailto:ton-email@example.com)**  
+**[omar.yassine@ynov.com](mailto:omar.yassine@ynov.com)**  
 
 Ou via LinkedIn :  
-[Mon profil LinkedIn](https://linkedin.com/in/tonprofil)
+[Omar Yassine](https://linkedin.com/in/omar-yassine)
