@@ -4,8 +4,8 @@ title: "À propos"
 ---
 
 ## Qui suis-je ?
-Je suis étudiant(e) en Bachelor 2 [nom du cursus], passionné(e) par [domaine].  
-Ce blog retrace mon expérience lors de mon stage chez [nom de l’entreprise].
+Je suis étudiant en Bachelor 2 - Informatique, passionné par le développement.  
+Ce blog retrace mon expérience lors de mon stage chez HiQub.
 
 ### Mon parcours
 - 2024 : Bachelor 1 - Informatique
