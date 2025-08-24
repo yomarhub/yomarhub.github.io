@@ -1,0 +1,16 @@
+---
+layout: post
+custom_css: "/assets/css/post.css"
+---
+{% include head-custom.html %}
+{{ content }}
+
+<hr>
+<div class="nav-buttons {% if page.previous and page.next %}both{% elsif page.next %}next{% elsif page.previous %}prev{% endif %}">
+    {% if page.previous %}
+    <a href="{{ page.previous.url }}">← {{ page.previous.title }}</a>
+    {% endif %}
+    {% if page.next %}
+    <a href="{{ page.next.url }}">{{ page.next.title }} →</a>
+    {% endif %}
+</div>

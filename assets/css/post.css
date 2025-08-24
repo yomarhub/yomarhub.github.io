@@ -1,0 +1,29 @@
+div.nav-buttons {
+    display: flex;
+    margin-top: 1em;
+}
+
+.nav-buttons.both {
+    justify-content: space-between;
+}
+
+.nav-buttons.next {
+    justify-content: flex-end;
+}
+
+.nav-buttons.prev {
+    justify-content: flex-start;
+}
+
+div.center-img {
+    display: flex;
+    justify-content: center;
+    margin: 1em 0;
+
+    & img.vw150 {
+        min-width: 100%;
+        max-width: 60vw;
+        border-radius: 8px;
+        flex-shrink: 0;
+    }
+}

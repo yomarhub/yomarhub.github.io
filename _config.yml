@@ -1,7 +1,19 @@
 title: "Mon Blog de Stage"
 description: "Journal de mon expérience professionnelle en Bachelor 2"
-author: "Omar YASSINE"
+author: Omar YASSINE
+email: "omar.yassine@ynov.com"
 theme: minima
+url: "https://yomarhub.github.io"
+# baseurl: "/mon-blog-de-stage"
+include:
+  - _includes/head-custom.html
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "nav-post"
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
