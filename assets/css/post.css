@@ -15,7 +15,7 @@ div.nav-buttons {
     justify-content: flex-start;
 }
 
-div.center-img {
+.center-img {
     display: flex;
     justify-content: center;
     margin: 1em 0;

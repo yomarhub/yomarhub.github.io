@@ -1,3 +1,9 @@
+{% if include.link %}
+<a class="center-img" href="{{ include.link }}" target="{{ include.alt | url_encode }}">
+    <img class="vw150" src="{{ include.url }}" alt="{{ include.alt }}">
+</a>
+{% else %}
 <div class="center-img">
     <img class="vw150" src="{{ include.url }}" alt="{{ include.alt }}">
 </div>
+{% endif %}

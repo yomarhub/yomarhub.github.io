@@ -20,8 +20,7 @@ Chez HiQub, il ne s’agit pas simplement de faire des jeux, mais de construire 
 - **Mentorat et accompagnement** : HiQub forme, conseille et soutient studios, entreprises et étudiant·es.
 
 ### L’équipe
-
-{% include img.html url="/assets/images/HiQub_equipe.png" alt="HiQub Equipe" %}
+{% include img.html url="/assets/images/HiQub_equipe.png" alt="HiQub Equipe" link="https://hiqub.com" %}
 
 HiQub, c’est une équipe pluridisciplinaire :
 - **Gaëtan SAURA** : Creative & Technical Director
