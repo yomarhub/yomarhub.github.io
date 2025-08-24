@@ -4,11 +4,11 @@
     <div class="video-grid">
 {% for video in list -%}
 {% capture frame -%}
-<iframe src="{{ video.src }}" title="{{ video.title }}" frameborder="0" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<lite-youtube videourl="{{ video.src }}" playlabel="Play: {{ video.title }}" onload="function onload(event) { event.target.parentElement.removeAttribute('style'); }"></lite-youtube>
 {% endcapture %}
-
-    <div class="video-container">
+    <div class="video-container" style="aspect-ratio: 16 / 9; border-radius: 12px; overflow: hidden;">
         {{ frame | strip_newlines }}
     </div>
 {% endfor %}
+    </div>
 </div>

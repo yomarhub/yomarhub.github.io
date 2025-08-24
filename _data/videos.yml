@@ -18,3 +18,49 @@ articy_draft_videos:
   
   - src: "https://www.youtube.com/embed/vT5BNcS6xcA?list=PLOGTuf9Pxm6546DE5511DL_Qg1JDJe3iV"
     title: "articy:draft Importer for Unreal - Tutorial Lesson 5"
+
+cpp:
+  - src: "https://www.youtube.com/embed/IaU2Hue-ApI"
+    title: "The Unreal Engine Game Framework: From int main() to BeginPlay"
+
+  - src: "https://www.youtube.com/embed/dS5AUaYFcdw"
+    title: "Getting into C++ with Unreal Engine - Part1 - Setting up"
+
+  - src: "https://www.youtube.com/embed/w2NNFQpY-DE"
+    title: "UE5 C++ 44 - How To Create Event Dispatcher With C++? - Unreal Engine Tutorial CPP Delegate Callback"
+
+  - src: "https://www.youtube.com/embed/ZzaPdXTrSb8"
+    title: "C++ Tutorial for Beginners - Learn C++ in 1 Hour"
+
+  - src: "https://www.youtube.com/embed/GxmfcnU3feo"
+    title: "The Complete Web Development Roadmap"
+
+  - src: "https://www.youtube.com/embed/nvruYLgjKkk"
+    title: "UE5 C++ Tutorial | Introduction to Unreal Engine 5 with C++ in less than 90 Minutes"
+
+  - src: "https://www.youtube.com/embed/ACIQcOgqWLI"
+    title: "How to Create Widgets in Unreal Engine 5 C++"
+
+  - src: "https://www.youtube.com/embed/oCML-NOTArE"
+    title: "Creating a UMG/Slate Widget in Unreal Engine #notGDC"
+
+  - src: "https://www.youtube.com/embed/Mc_a495gTOU"
+    title: "How to make plugins in Unreal Engine… and why you should!"
+
+  - src: "https://www.youtube.com/embed/6485d5Zoc_k"
+    title: "C++ for Blueprinters | Unreal Engine"
+
+  - src: "https://www.youtube.com/embed/TXZGIvpEhW8"
+    title: "What do you do when Unreal Editor crashes?"
+
+  - src: "https://www.youtube.com/embed/94FvzO1HVzY"
+    title: "Unreal Engine C++ Project Setup, From Scratch"
+
+  - src: "https://www.youtube.com/embed/VMZftEVDuCE"
+    title: "Blueprints vs. C++: How They Fit Together and Why You Should Use Both"
+
+  - src: "https://www.youtube.com/embed/vEtMGIJ0lPM"
+    title: "Blueprints To C++: Episode 1 - Creating A Plugin #plugin #cpp #cpplus #ue5"
+
+  - src: "https://www.youtube.com/embed/hEDQpqhY2MA?list=PLSICQVATXk510i6-yCx-5uX4HQ7kPCodJ"
+    title: "Visualizing Data with 7-Segment Displays"

@@ -26,13 +26,13 @@ let arg = process.argv.slice(2);
 if (arg.length > 0) {
     arg = arg.join(' ');
     let r = arg.match(/src=(?<src>".+?") title=(?<title>".+?")/)?.groups;
-    console.log(\`\n- src: \${r.src}\n  title: \${r.title}\`);
+    if (!r) {
+        console.error("No match found");
+        process.exit(1);
+    }
+    console.log(\`\n  - src: \${r.src}\n    title: \${r.title}\`);
 }
 END
 )
 
-# echo
-# echo "$script"
-# echo
-# node test.js ${@:2} | tee -a $1
-node -e "$script" ${@:2} | tee -a $1
+node -e "$script" ${@:2} >> "$1"
