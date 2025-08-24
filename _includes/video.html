@@ -1,0 +1,14 @@
+{% assign list = include.list | default: site.data.videos -%}
+
+<div class="center">
+    <div class="video-grid">
+{% for video in list -%}
+{% capture frame -%}
+<iframe src="{{ video.src }}" title="{{ video.title }}" frameborder="0" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+{% endcapture %}
+
+    <div class="video-container">
+        {{ frame | strip_newlines }}
+    </div>
+{% endfor %}
+</div>

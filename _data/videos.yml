@@ -1,0 +1,20 @@
+# - src: "https://www.youtube.com/embed/g0zMk5Uw-XU?list=PLOGTuf9Pxm6546DE5511DL_Qg1JDJe3iV"
+#   title: "articy:draft Importer for Unreal - Tutorial Lesson 3"
+# 
+# - regex: /src=(?<src>".+?") title=(?<title>".+?")/
+#   js: .match(/src=(?<src>".+?") title=(?<title>".+?")/)
+articy_draft_videos:
+  - src: "https://www.youtube.com/embed/ecj65D-tDA4?list=PLOGTuf9Pxm6546DE5511DL_Qg1JDJe3iV"
+    title: "articy:draft Importer for Unreal - Tutorial Lesson 1"
+  
+  - src: "https://www.youtube.com/embed/4k908IFUmDU?list=PLOGTuf9Pxm6546DE5511DL_Qg1JDJe3iV"
+    title: "articy:draft Importer for Unreal - Tutorial Lesson 2"
+  
+  - src: "https://www.youtube.com/embed/g0zMk5Uw-XU?list=PLOGTuf9Pxm6546DE5511DL_Qg1JDJe3iV"
+    title: "articy:draft Importer for Unreal - Tutorial Lesson 3"
+  
+  - src: "https://www.youtube.com/embed/wiZ4C5ziGHA?list=PLOGTuf9Pxm6546DE5511DL_Qg1JDJe3iV"
+    title: "articy:draft Importer for Unreal - Tutorial Lesson 4"
+  
+  - src: "https://www.youtube.com/embed/vT5BNcS6xcA?list=PLOGTuf9Pxm6546DE5511DL_Qg1JDJe3iV"
+    title: "articy:draft Importer for Unreal - Tutorial Lesson 5"
